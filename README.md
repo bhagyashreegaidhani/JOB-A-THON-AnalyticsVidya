@@ -11,11 +11,9 @@ You, being a part of the data engineering team, are expected to “Develop input
 
 1. Visitor Log Data – It is a browsing log data of all the visitors and the users. This table contains the following information:
 
-WebClientID
-Unique ID of browser for every system. (If a visitor is using multiple browsers on a system like Chrome, Safari, then there would be a different web clientid for each browser). The ID remains consistent unless the user clears their cookie.
+WebClientID : Unique ID of browser for every system. (If a visitor is using multiple browsers on a system like Chrome, Safari, then there would be a different web clientid for each browser). The ID remains consistent unless the user clears their cookie.
 
-VisitDateTime
-Date and time of visit. There are two different formats for DateTime. 
+VisitDateTime : Date and time of visit. There are two different formats for DateTime. 
 
 One is in datetime format “2018-05-07 04:28:45.970”
 Another one is in unix datetime format “1527051855673000000”
