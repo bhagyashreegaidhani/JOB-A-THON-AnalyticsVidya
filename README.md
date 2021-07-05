@@ -31,7 +31,7 @@ City : City of the visitor
 
 Country : Country of the visitor
 
-2. User Data – It has registered user information like signup date and segment.
+2. User Data – It has registered user information like signup date and segment.This table contains following information.
 
 UserID : Unique ID of the registered user.
 
@@ -43,22 +43,23 @@ Now based on the above two tables, you need to create an input feature set for t
 
 3. Input Feature table:
 
-UserID:Unique ID of the registered user
-No_of_days_Visited_7_Days:How many days a user was active on platform in the last 7 days.
+UserID : Unique ID of the registered user
 
-No_Of_Products_Viewed_15_Days:Number of Products viewed by the user in the last 15 days
+No_of_days_Visited_7_Days : How many days a user was active on platform in the last 7 days.
 
-User_Vintage:Vintage (In Days) of the user as of today
+No_Of_Products_Viewed_15_Days : Number of Products viewed by the user in the last 15 days
 
-Most_Viewed_product_15_Days:Most frequently viewed (page loads) product by the user in the last 15 days. If there are multiple products that have a similar number of page loads then , consider the recent one. If a user has not viewed any product in the last 15 days then put it as Product101. 
+User_Vintage : Vintage (In Days) of the user as of today
 
-Most_Active_OS:Most Frequently used OS by user. 
+Most_Viewed_product_15_Days : Most frequently viewed (page loads) product by the user in the last 15 days. If there are multiple products that have a similar number of page loads then , consider the recent one. If a user has not viewed any product in the last 15 days then put it as Product101. 
 
-Recently_Viewed_Product:Most recently viewed (page loads) product by the user.If a user has not viewed any product then put it as Product101.
+Most_Active_OS : Most Frequently used OS by user. 
 
-Pageloads_last_7_days:Count of Page loads in the last 7 days by the user
+Recently_Viewed_Product : Most recently viewed (page loads) product by the user.If a user has not viewed any product then put it as Product101.
 
-Clicks_last_7_days:Count of Clicks in the last 7 days  by the user
+Pageloads_last_7_days : Count of Page loads in the last 7 days by the user
+
+Clicks_last_7_days : Count of Clicks in the last 7 days  by the user
 
 Process to create Input Feature:
 
