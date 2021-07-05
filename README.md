@@ -9,7 +9,7 @@ ComZ has contacted the Data Science and Engineering team to use this information
 
 You, being a part of the data engineering team, are expected to “Develop input features”  for the efficient marketing model given the Visitor log data and User Data.
 
-1. Visitor Log Data – It is a browsing log data of all the visitors and the users. This table contains the following information:
+1. **Visitor Log Data** – It is a browsing log data of all the visitors and the users. This table contains the following information:
 
 WebClientID : Unique ID of browser for every system. (If a visitor is using multiple browsers on a system like Chrome, Safari, then there would be a different web clientid for each browser). The ID remains consistent unless the user clears their cookie.
 
@@ -31,7 +31,7 @@ City : City of the visitor
 
 Country : Country of the visitor
 
-2. User Data – It has registered user information like signup date and segment.This table contains following information.
+2. **User Data** – It has registered user information like signup date and segment.This table contains following information.
 
 UserID : Unique ID of the registered user.
 
@@ -41,7 +41,7 @@ User Segment : User Segment (A/B/C) created based on historical engagement
 
 Now based on the above two tables, you need to create an input feature set for the Marketing Model.
 
-3. Input Feature table:
+3. **Input Feature table**:
 
 UserID : Unique ID of the registered user
 
